@@ -1,0 +1,164 @@
+/*
+              Game: Solitaire++
+            Author: Neeraj Buccam
+      Release Date: 31-Mar-2015
+           Version: 3.0
+  File Description: CSS built for SOLITAIRE++ 2015
+*/
+.unselectable {
+    -moz-user-select: none; /* These user-select properties are inheritable, used to prevent text selection */
+    -webkit-user-select: none;
+    -ms-user-select: none; /* From IE10 only */
+    user-select: none; /* Not valid CSS yet, as of July 2012 */
+    -webkit-user-drag: none; /* Prevents dragging of images/divs etc */
+    user-drag: none;
+}
+body{
+    background-color: #2A0D00;
+}
+#border{
+    background-color: olive;
+    border-radius: 15px;
+    width: 66%;
+    height: 100%;
+    margin: auto;
+}
+#wrap{
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+#btns{
+    height: 40px;
+    width: 50%;
+    text-align: center;
+    float: left;
+}
+#btnHelp, #btnCheat, #btnUndo, #btnReset, #btnNew{
+    border-radius: 0 50% 0 50%;
+    height: 100%;
+    font-size: 0.8em;
+    font-weight: bold;
+    background: darkgoldenrod;
+    border-color: greenyellow;
+}
+.score{
+    border-radius: 10px;
+    padding: 1px 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: rgb(8, 30, 94);
+    border: 1px solid;
+    border-color: black;
+    background-color: rgba(192, 192, 192, 0.49);
+}
+#score, #move, #time{
+    color: rgb(201, 222, 227);;
+}
+#help{
+    width: 50%;
+    height: 50%;
+    font-family: monospace;
+    font-size: 1em;
+    font-weight: bold;
+    border: 2px solid;
+    z-index: 100;
+    padding: 10px;
+    background-color: rgba(201, 222, 227, 0.85);
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    display: none;
+}
+#scoring{
+    color: rgb(39, 0, 169);
+}
+.title{
+    width: 100%;
+    height: 10px;
+    text-align: center;
+    font-size: 1.2em;
+}
+.red{
+    color: red;
+}
+
+#top, #bottom{
+    float: left;
+    width: 100%;
+    margin: auto 2%;
+}
+#top{
+    height: 27%;
+}
+#bottom{
+    height: 60%;
+}
+
+#extra-box{
+    float: left;
+    width: 40%;
+    height: 100%;
+}
+#house{
+    float: right;
+    width: 60%;
+    height: 100%;
+}
+#extra-l{
+    float: left;
+    width: 28%;
+    height: 82%;
+    position: relative;
+    top: 8%;
+    left: 12%;
+    background-image: url("cards/empty.png");
+    background-size: 100% 100%;
+}
+#extra-r{
+    float: left;
+    width: 28%;
+    left: 30%;
+    height: 82%;
+    position: relative;
+    top: 8%;
+}
+#extra{
+    top: 0%;
+    z-index: 1;
+}
+#extra-open{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+}
+.outer{
+    float: left;
+    border: olive solid 2px;
+    width: 19.8%;
+    height: 80%;
+    position: relative;
+    top: 7%;
+    margin: 0px 2px;
+    background-color: rgba(192, 192, 192, 0.49);
+}
+
+.outer:hover,#extra-l :last-child:hover,#extra-r :last-child:hover,#c1 :last-child:hover,#c2 :last-child:hover,#c3 :last-child:hover,#c4 :last-child:hover,#c5 :last-child:hover,#c6 :last-child:hover,#c7 :last-child:hover{
+    border: olive solid 2px;
+}
+
+div{
+    border-radius: 10px;
+}
+#copy{
+    text-align: center;
+    font-size: 15pt;
+    font-weight: bold;
+    font-family: "Courier New", Courier, monospace;
+    z-index: 0;
+    color: #ADFF2F;
+}

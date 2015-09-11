@@ -1,0 +1,83 @@
+<!--
+              Game: Solitaire++
+            Author: Neeraj Buccam
+      Release Date: 31-Mar-2015
+           Version: 3.0
+  File Description: Javascript code built for SOLITAIRE++ 2015
+-->
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="cards.css">
+<link rel="stylesheet" type="text/css" href="animate.css">
+<script type="text/javascript" src="script.js"></script>
+</head>
+<body onload="start()" oncontextmenu="auto_Pilot()" onbeforeunload="return 'You will loose this game'">
+<div id="border">
+    <div id="wrap">
+        <div id="help">
+            <div class="title">Game Rules</div>
+            <span id="rules">
+                <ol>
+                    <li>Game comprise of 3 sections, ie EXTRA, HOME & PLAYING AREA.</li>
+                    <li>EXTRA AREA has extra cards.</li>
+                    <li>HOME AREA must be filled with all 52 cards to win.</li>
+                    <li>Cards in HOME AREA must be placed in Accending order of card value & of same SUIT.</li>
+                    <li>Cards in PLAYING AREA must be placed in Decending order of card value & of alternate COLOUR.</li>
+                </ol>
+                <ul id="scoring" type="none">
+                    <li>&nbsp;10 Points <span class="red">=></span> Card moved inside HOME AREA</li>
+                    <li>-12 Points <span class="red">=></span> Card moved outside HOME AREA</li>
+                    <li>-20 Points <span class="red">=></span> Cheat Mode is used for invalid moves</li>
+                    <li>&nbsp;-2 Points <span class="red">=></span> Card moved within PLAYING AREA</li>
+                </ul>
+            </span>
+            <div class="title">Features</div>
+            <span id="feature">
+                <ol>
+                    <li>DOUBLE CLICK on a card, moves card inside HOME AREA if the move is valid.</li>
+                    <li>'New Game' button creates a new game.</li>
+                    <li>'Reset' button rearaange cards to initial state.</li>
+                    <li>'Undo' button reverts a card move made.</li>
+                    <li>'Cheat' button enables/disables cheat mode, ie Enables INVALID move.</li>
+                </ol>
+            </span>
+        </div>
+        <div id="btns">
+          <button id="btnNew" onclick="newGame()">New Game</button>
+          <button id="btnReset" onclick="resetGame()">Reset</button>
+          <button id="btnUndo" onclick="undoMove()">Undo</button>
+          <button id="btnCheat" onclick="cheatMove()">Cheat<input id="chkCheat" type="checkbox"/></button>
+          <button id="btnHelp" onclick="help()">Help</button>
+        </div>
+        <div id="btns">
+            <span class="score">Score:&nbsp;<span id="score">0</span></span>
+            <span class="score">Moves:&nbsp;<span id="move">0</span></span>
+            <span class="score">Time:&nbsp;<span id="time">00:00:00</span></span>
+        </div>
+        <div id="top">
+            <div id="extra-box">
+                <div id="extra-l" onclick="openextra(this);" class="unselectable"></div>
+                <div id="extra-r" ondrop="drop(this)" ondragover="dragAllow(event)" ondblclick="doubleClick(this)" class="unselectable"></div>
+            </div>
+            <div id="house">
+                <div class="outer" id="h1" ondrop="drop(this)" ondragover="dragAllow(event)" class="unselectable"></div>
+                <div class="outer" id="h2" ondrop="drop(this)" ondragover="dragAllow(event)" class="unselectable"></div>
+                <div class="outer" id="h3" ondrop="drop(this)" ondragover="dragAllow(event)" class="unselectable"></div>
+                <div class="outer" id="h4" ondrop="drop(this)" ondragover="dragAllow(event)" class="unselectable"></div>
+            </div>
+        </div>
+        <div id="bottom">
+            <div id="c1" ondrop="drop(this)" ondragover="dragAllow(event)" ondblclick="doubleClick(this)" class="unselectable"></div>
+            <div id="c2" ondrop="drop(this)" ondragover="dragAllow(event)" ondblclick="doubleClick(this)" class="unselectable"></div>
+            <div id="c3" ondrop="drop(this)" ondragover="dragAllow(event)" ondblclick="doubleClick(this)" class="unselectable"></div>
+            <div id="c4" ondrop="drop(this)" ondragover="dragAllow(event)" ondblclick="doubleClick(this)" class="unselectable"></div>
+            <div id="c5" ondrop="drop(this)" ondragover="dragAllow(event)" ondblclick="doubleClick(this)" class="unselectable"></div>
+            <div id="c6" ondrop="drop(this)" ondragover="dragAllow(event)" ondblclick="doubleClick(this)" class="unselectable"></div>
+            <div id="c7" ondrop="drop(this)" ondragover="dragAllow(event)" ondblclick="doubleClick(this)" class="unselectable"></div>
+        </div>
+        <div id="copy">Solitaire<sup>++</sup> 2015 &copy; Neeraj Buccam</div>
+    </div>
+</div>
+</body>
+</html>

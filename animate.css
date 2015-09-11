@@ -1,0 +1,231 @@
+/*
+              Game: Solitaire++
+            Author: Neeraj Buccam
+      Release Date: 31-Mar-2015
+           Version: 3.0
+  File Description: CSS animation code for moving cards in SOLITAIRE++ 2015
+*/
+@-webkit-keyframes rot0{
+    0% {margin-top: -160%; margin-left: 0%; opacity: 0;}
+}
+@-webkit-keyframes rot1{
+    from {margin-top: -185%; margin-left: -115%; opacity: 0;}
+}
+@-webkit-keyframes rot2{
+    from {margin-top: -210%; margin-left: -230%; opacity: 0;}
+}
+@-webkit-keyframes rot3{
+    from {margin-top: -235%; margin-left: -345%; opacity: 0;}
+}
+@-webkit-keyframes rot4{
+    from {margin-top: -260%; margin-left: -460%; opacity: 0;}
+}
+@-webkit-keyframes rot5{
+    from {margin-top: -285%; margin-left: -575%; opacity: 0;}
+}
+@-webkit-keyframes rot6{
+    from {margin-top: -310%; margin-left: -690%; opacity: 0;}
+}
+@-webkit-keyframes slide1{
+    from {margin-top: -160%; margin-left: -115%; z-index: -1;}
+}
+@-webkit-keyframes slide3{
+    from {margin-top: -160%; margin-left: -230%; z-index: -1;}
+}
+@-webkit-keyframes slide4{
+    from {margin-top: -185%; margin-left: -230%; z-index: -1;}
+}
+@-webkit-keyframes slide6{
+    from {margin-top: -160%; margin-left: -345%; z-index: -1;}
+}
+@-webkit-keyframes slide7{
+    from {margin-top: -185%; margin-left: -345%; z-index: -1;}
+}
+@-webkit-keyframes slide8{
+    from {margin-top: -210%; margin-left: -345%; z-index: -1;}
+}
+@-webkit-keyframes slide10{
+    from {margin-top: -160%; margin-left: -460%; z-index: -1;}
+}
+@-webkit-keyframes slide11{
+    from {margin-top: -185%; margin-left: -460%; z-index: -1;}
+}
+@-webkit-keyframes slide12{
+    from {margin-top: -210%; margin-left: -460%; z-index: -1;}
+}
+@-webkit-keyframes slide13{
+    from {margin-top: -235%; margin-left: -460%; z-index: -1;}
+}
+@-webkit-keyframes slide15{
+    from {margin-top: -160%; margin-left: -575%; z-index: -1;}
+}
+@-webkit-keyframes slide16{
+    from {margin-top: -185%; margin-left: -575%; z-index: -1;}
+}
+@-webkit-keyframes slide17{
+    from {margin-top: -210%; margin-left: -575%; z-index: -1;}
+}
+@-webkit-keyframes slide18{
+    from {margin-top: -235%; margin-left: -575%; z-index: -1;}
+}
+@-webkit-keyframes slide19{
+    from {margin-top: -260%; margin-left: -575%; z-index: -1;}
+}
+@-webkit-keyframes slide21{
+    from {margin-top: -160%; margin-left: -690%; z-index: -1;}
+}
+@-webkit-keyframes slide22{
+    from {margin-top: -185%; margin-left: -690%; z-index: -1;}
+}
+@-webkit-keyframes slide23{
+    from {margin-top: -210%; margin-left: -690%; z-index: -1;}
+}
+@-webkit-keyframes slide24{
+    from {margin-top: -235%; margin-left: -690%; z-index: -1;}
+}
+@-webkit-keyframes slide25{
+    from {margin-top: -260%; margin-left: -690%; z-index: -1;}
+}
+@-webkit-keyframes slide26{
+    from {margin-top: -285%; margin-left: -690%; z-index: -1;}
+}
+.anim_card0{
+    -webkit-animation-name: rot0;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-delay: 0s;
+}
+    .anim_card1{
+        -webkit-animation-name: slide1;
+        -webkit-animation-duration: 0.3s;
+        -webkit-animation-delay: 0s;
+    }
+.anim_card2{
+    -webkit-animation-name: rot1;
+    -webkit-animation-duration: 1.166s;
+    -webkit-animation-delay: 0s;
+}
+    .anim_card3{
+        -webkit-animation-name: slide3;
+        -webkit-animation-duration: 0.31s;
+        -webkit-animation-delay: 0s;
+    }
+    .anim_card4{
+        -webkit-animation-name: slide4;
+        -webkit-animation-duration: 0.36s;
+        -webkit-animation-delay: 0s;
+    }
+.anim_card5{
+    -webkit-animation-name: rot2;
+    -webkit-animation-duration: 1.322s;
+    -webkit-animation-delay: 0s;
+}
+    .anim_card6{
+        -webkit-animation-name: slide6;
+        -webkit-animation-duration: 0.32s;
+        -webkit-animation-delay: 0s;
+    }
+    .anim_card7{
+        -webkit-animation-name: slide7;
+        -webkit-animation-duration: 0.37s;
+        -webkit-animation-delay: 0s;
+    }
+    .anim_card8{
+        -webkit-animation-name: slide8;
+        -webkit-animation-duration: 0.41s;
+        -webkit-animation-delay: 0s;
+    }
+.anim_card9{
+    -webkit-animation-name: rot3;
+    -webkit-animation-duration: 1.498s;
+    -webkit-animation-delay: 0s;
+}
+    .anim_card10{
+        -webkit-animation-name: slide10;
+        -webkit-animation-duration: 0.33s;
+        -webkit-animation-delay: 0s;
+    }
+    .anim_card11{
+        -webkit-animation-name: slide11;
+        -webkit-animation-duration: 0.38s;
+        -webkit-animation-delay: 0s;
+    }
+    .anim_card12{
+        -webkit-animation-name: slide12;
+        -webkit-animation-duration: 0.42s;
+        -webkit-animation-delay: 0s;
+    }
+    .anim_card13{
+        -webkit-animation-name: slide13;
+        -webkit-animation-duration: 0.45s;
+        -webkit-animation-delay: 0s;
+    }
+.anim_card14{
+    -webkit-animation-name: rot4;
+    -webkit-animation-duration: 1.664s;
+    -webkit-animation-delay: 0s;
+}
+    .anim_card15{
+        -webkit-animation-name: slide15;
+        -webkit-animation-duration: 0.34s;
+        -webkit-animation-delay: 0s;
+    }
+    .anim_card16{
+        -webkit-animation-name: slide16;
+        -webkit-animation-duration: 0.39s;
+        -webkit-animation-delay: 0s;
+    }
+    .anim_card17{
+        -webkit-animation-name: slide17;
+        -webkit-animation-duration: 0.43s;
+        -webkit-animation-delay: 0s;
+    }
+    .anim_card18{
+        -webkit-animation-name: slide18;
+        -webkit-animation-duration: 0.46s;
+        -webkit-animation-delay: 0s;
+    }
+    .anim_card19{
+        -webkit-animation-name: slide19;
+        -webkit-animation-duration: 0.48s;
+        -webkit-animation-delay: 0s;
+    }
+.anim_card20{
+    -webkit-animation-name: rot5;
+    -webkit-animation-duration: 1.83s;
+    -webkit-animation-delay: 0s;
+}
+    .anim_card21{
+        -webkit-animation-name: slide21;
+        -webkit-animation-duration: 0.35s;
+        -webkit-animation-delay: 0s;
+    }
+    .anim_card22{
+        -webkit-animation-name: slide22;
+        -webkit-animation-duration: 0.40s;
+        -webkit-animation-delay: 0s;
+    }
+    .anim_card23{
+        -webkit-animation-name: slide23;
+        -webkit-animation-duration: 0.44s;
+        -webkit-animation-delay: 0s;
+    }
+    .anim_card24{
+        -webkit-animation-name: slide24;
+        -webkit-animation-duration: 0.47s;
+        -webkit-animation-delay: 0s;
+    }
+    .anim_card25{
+        -webkit-animation-name: slide25;
+        -webkit-animation-duration: 0.49s;
+        -webkit-animation-delay: 0s;
+    }
+    .anim_card26{
+        -webkit-animation-name: slide26;
+        -webkit-animation-duration: 0.50s;
+        -webkit-animation-delay: 0s;
+    }
+.anim_card27{
+    -webkit-animation-name: rot6;
+    -webkit-animation-duration: 1.996s;
+    -webkit-animation-delay: 0s;
+}

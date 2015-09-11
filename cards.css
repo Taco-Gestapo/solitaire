@@ -1,0 +1,130 @@
+/*
+              Game: Solitaire++
+            Author: Neeraj Buccam
+      Release Date: 31-Mar-2015
+           Version: 3.0
+  File Description: CSS for cards in SOLITAIRE++ 2015
+*/
+img{
+    width: 100%;
+    height: 100%;
+}
+.open{
+    top: 20%;
+}
+.closed{
+    top: 5%;
+}
+#c1,#c2,#c3,#c4,#c5,#c6,#c7{
+    position: absolute;
+    width: 7%;
+    height: 20%;
+}
+#c1{
+    left: 22%;
+}
+#c2{
+    left: 30%;
+}
+#c3{
+    left: 38%;
+}
+#c4{
+    left: 46%;
+}
+#c5{
+    left: 54%;
+}
+#c6{
+    left: 62%;
+}
+#c7{
+    left: 70%;
+}
+.l0, .l1, .l2, .l3, .l4, .l5, .l6, .l7, .l8, .l9, .l10, .l11, .l12, .l13, .l14, .l15, .l16, .l17, .l18, .l19{
+    border: black solid 1px;
+    z-index: 20;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.l0{
+    top: 0%;
+    z-index: 1;
+}
+.l1{
+    top: 18%;
+    z-index: 2;
+}
+.l2{
+    top: 36%;
+    z-index: 3;
+}
+.l3{
+    top: 54%;
+    z-index: 4;
+}
+.l4{
+    top: 72%;
+    z-index: 5;
+}
+.l5{
+    top: 90%;
+    z-index: 6;
+}
+.l6{
+    top: 108%;
+    z-index: 7;
+}
+.l7{
+    top: 126%;
+    z-index: 8;
+}
+.l8{
+    top: 144%;
+    z-index: 9;
+}
+.l9{
+    top: 162%;
+    z-index: 10;
+}
+.l10{
+    top: 180%;
+    z-index: 11;
+}
+.l11{
+    top: 198%;
+    z-index: 12;
+}
+.l12{
+    top: 216%;
+    z-index: 13;
+}
+.l13{
+    top: 234%;
+    z-index: 14;
+}
+.l14{
+    top: 252%;
+    z-index: 15;
+}
+.l15{
+    top: 270%;
+    z-index: 16;
+}
+.l16{
+    top: 288%;
+    z-index: 17;
+}
+.l17{
+    top: 306%;
+    z-index: 18;
+}
+.l18{
+    top: 324%;
+    z-index: 19;
+}
+.l19{
+    top: 342%;
+    z-index: 20;
+}
